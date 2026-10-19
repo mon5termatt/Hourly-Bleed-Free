@@ -3,6 +3,7 @@
 > Chrome extension that bills your distractions at your hourly rate. Local-only — no license wall, no phone-home.
 > Forked from the Web Store build and stripped to remove all licence checks and phone home.
 
+original extension: https://chromewebstore.google.com/detail/hourly-bleed/iepnhnhcopafngccbhfocaggmfnfjpjk
 
 ## Why?
 Because slop shouldnt be 9 dollars.
@@ -30,4 +31,3 @@ Because slop shouldnt be 9 dollars.
 ## Privacy
 
 Everything stays in `chrome.storage` on your machine. No analytics, no update checks, no license servers.
-
