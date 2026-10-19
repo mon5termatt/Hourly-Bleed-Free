@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Hourly Bleed",
+  "version": "6.6.6",
+  "description": "See the real dollar cost of your browser distractions at your actual hourly rate.",
+  "action": {
+    "default_icon": {
+      "16": "icons/16.png",
+      "48": "icons/48.png",
+      "128": "icons/128.png"
+    },
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icons/16.png",
+    "48": "icons/48.png",
+    "128": "icons/128.png"
+  },
+  "options_ui": {
+    "open_in_tab": true,
+    "page": "options.html"
+  },
+  "permissions": ["tabs", "storage", "alarms", "idle"]
+}

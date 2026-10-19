@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Hourly Bleed</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header>
+    <div class="label">Today's bill</div>
+    <div id="total" class="total">$0.00</div>
+    <div id="rate" class="sub">at $0/hr</div>
+  </header>
+
+  <section class="row">
+    <span class="label">Social tax</span>
+    <span id="social" class="amount">$0.00</span>
+  </section>
+
+  <section>
+    <div class="label">Top offenders today</div>
+    <ol id="top"></ol>
+    <p id="empty" class="sub" hidden>Nothing billed yet. Enjoy it while it lasts.</p>
+  </section>
+
+  <section>
+    <div class="label">Last 7 days</div>
+    <ol id="history"></ol>
+    <p id="historyEmpty" class="sub" hidden>No history yet.</p>
+  </section>
+
+  <p class="dev-note">Don't pay for stupid shit. Your $8.99 can stay in your pocket.</p>
+
+  <footer>
+    <button id="reset" type="button">Reset today</button>
+    <a id="options" href="#">Settings</a>
+  </footer>
+
+  <script src="popup.js"></script>
+</body>
+</html>
