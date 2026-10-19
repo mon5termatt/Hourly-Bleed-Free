@@ -9,11 +9,11 @@ original extension: https://chromewebstore.google.com/detail/hourly-bleed/iepnhn
 Because slop shouldnt be 9 dollars.
 
 ## Features
-- Local-only - no license checks, no phone home
-- No license wall - your $8.99 can stay in your pocket
-- No phone home - no analytics, no update checks, no license servers
-- No license checks - no license checks, no phone home
-- No phone home - no analytics, no update checks, no license servers
+- Local-only
+- No license wall
+- No phone home
+- No license checks
+- No phone home
 
 ## Install
 
