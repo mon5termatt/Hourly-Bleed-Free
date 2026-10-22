@@ -12,6 +12,8 @@ Because charging **$8.99** for a few hundred lines of local JS with a client-sid
 
 Also because "**free to install**" is a dodge. Yeah you can add it from the Web Store. Then it locks and hits you for $8.99 before it does anything. That's not a trial. That's a padlocked fridge you were allowed to walk up to.
 
+Here is a less than 3 minute video of me "fixing" the extension: https://youtu.be/UGK0FkAVJpw
+
 The store build "protects" itself with offline ECDSA signatures checked inside the extension. Sounds fancy until you remember that check runs on your machine. Open the CRX, stub one function (or delete the file), load unpacked, done. Unforgeable crypto wrapped around a checkbox anyone can edit.
 
 The code also screams AI product. Tutorial comments. Dead monorepo paths. The same helpers copy-pasted three times. `module.exports` in a Chrome script. Fine as a weekend toy. Not fine as paid DRM cosplay.
